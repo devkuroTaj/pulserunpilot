@@ -29,9 +29,22 @@
 		2224F0422DA52119006C9AFB /* pulserunpilotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pulserunpilotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		226A423F2DAA7486007A4F18 /* Exceptions for "pulserunpilot" folder in "pulserunpilot" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2224F0292DA52117006C9AFB /* pulserunpilot */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2224F02C2DA52117006C9AFB /* pulserunpilot */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				226A423F2DAA7486007A4F18 /* Exceptions for "pulserunpilot" folder in "pulserunpilot" target */,
+			);
 			path = pulserunpilot;
 			sourceTree = "<group>";
 		};
@@ -394,6 +407,7 @@
 				DEVELOPMENT_TEAM = RM8GWQ6V75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pulserunpilot/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "펄스런 앱은 건강 데이터를 사용하여 적정 심박수 및 운동 존을 계산하기 위해 사용자의 생년월일과 심박수 정보를 읽어옵니다.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "이 앱은 건강 데이터 업데이트를 위해 HealthKit 데이터를 수정할 수 있습니다.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -434,6 +448,7 @@
 				DEVELOPMENT_TEAM = RM8GWQ6V75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pulserunpilot/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "펄스런 앱은 건강 데이터를 사용하여 적정 심박수 및 운동 존을 계산하기 위해 사용자의 생년월일과 심박수 정보를 읽어옵니다.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "이 앱은 건강 데이터 업데이트를 위해 HealthKit 데이터를 수정할 수 있습니다.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
